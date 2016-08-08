@@ -32,7 +32,7 @@ line1, = ax.plot([0, numOfData], [parameters[0], 200*parameters[1] + parameters[
 class Index(object):
 
     ind = 0
-
+    
     def next(self, event):
         global parameters
         self.ind += 1
